@@ -4,7 +4,7 @@ from excepciones import ClienteError
 # 1. CLASE ABSTRACTA (Entidad General)
 # ¿CÓMO?: Usamos ABC (Abstract Base Classes).
 # ¿POR QUÉ?: La guía pide una clase abstracta para entidades generales.
-# ¿PARA QUÉ?: Asegura que cualquier entidad (Cliente, Empleado, etc.) tenga ID.
+# ¿PARA QUÉ?: Asegura que cualquier entidad tenga una identificación básica.
 class EntidadSistema(ABC):
     def __init__(self, id_entidad):
         self.id_entidad = id_entidad
@@ -31,7 +31,7 @@ class Cliente(EntidadSistema):
     def mostrar_informacion(self):
         return f"Cliente: {self.__nombre} | ID: {self.id_entidad}"
 
-    # Getters para acceder a los atributos privados de forma segura
+    # Getters para acceder a los atributos privados
     def get_nombre(self):
         return self.__nombre
 
