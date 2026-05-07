@@ -1,0 +1,19 @@
+2026-04-24 16:36:30.322537 - Cantidad inválida
+2026-04-24 16:36:30.323506 - Cantidad inválida
+2026-04-24 16:36:30.323944 - Cantidad inválida
+Error creando cliente: Nombre vacío
+2026-04-24 16:36:30.324595 - Cantidad inválida
+Error creando cliente: Email inválido
+2026-04-24 17:23:05.375149 - Cantidad inválida
+2026-04-24 17:23:05.375749 - Cantidad inválida
+2026-04-24 17:23:05.376352 - Cantidad inválida
+Error creando cliente: Nombre vacío
+2026-04-24 17:23:05.377024 - Cantidad inválida
+Error creando cliente: Email inválido
+2026-04-24 17:25:58.504798 - Cantidad inválida
+2026-04-24 17:25:58.505835 - Cantidad inválida
+2026-04-24 17:25:58.507698 - Cantidad inválida
+Error creando cliente: Nombre vacío
+2026-04-24 17:25:58.508626 - Cantidad inválida
+Error creando cliente: Email inválido
+[ERROR LOG] 2026-05-06 23:03:42.014050 - ReservaError: La duración debe ser mayor a 0 horas.
