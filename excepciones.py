@@ -13,25 +13,25 @@ class SistemaError(Exception):
     pass
 
 # 2. ERROR DE CLIENTE
-# ¿CÓMO?: Hereda de 'SistemaError'./Sergio_Bermudez
-# ¿POR QUÉ?: La guía pide validaciones robustas y manejo de datos inválidos./Sergio_Bermudez
-# ¿PARA QUÉ?: Se lanzará si un cliente tiene datos personales incorrectos o faltantes./Sergio_Bermudez
+# ¿CÓMO?: Hereda de 'SistemaError'.
+# ¿POR QUÉ?: La guía pide validaciones robustas y manejo de datos inválidos.
+# ¿PARA QUÉ?: Se lanzará si un cliente tiene datos personales incorrectos o faltantes.
 class ClienteError(SistemaError):
     """Se lanza cuando hay errores en la creación o validación de un Cliente."""
     pass
 
 # 3. ERROR DE SERVICIO
-# ¿CÓMO?: Hereda de 'SistemaError'./Sergio_Bermudez
-# ¿POR QUÉ?: Requisito de manejar errores por "servicios no disponibles"./Sergio_Bermudez
-# ¿PARA QUÉ?: Se usa cuando un servicio (sala, equipo o asesoría) no puede procesarse./Sergio_Bermudez
+# ¿CÓMO?: Hereda de 'SistemaError'.
+# ¿POR QUÉ?: Requisito de manejar errores por "servicios no disponibles".
+# ¿PARA QUÉ?: Se usa cuando un servicio (sala, equipo o asesoría) no puede procesarse.
 class ServicioError(SistemaError):
     """Se lanza cuando ocurre un problema con los servicios ofrecidos."""
     pass
 
-# 4. ERROR DE RESERVA/Sergio_Bermudez
-# ¿CÓMO?: Hereda de 'SistemaError'./Sergio_Bermudez
-# ¿POR QUÉ?: Necesario para gestionar "intentos de reserva incorrectos"./Sergio_Bermudez
-# ¿PARA QUÉ?: Se activa si la reserva falla en su confirmación o procesamiento./Sergio_Bermudez
+# 4. ERROR DE RESERVA
+# ¿CÓMO?: Hereda de 'SistemaError'.
+# ¿POR QUÉ?: Necesario para gestionar "intentos de reserva incorrectos".
+# ¿PARA QUÉ?: Se activa si la reserva falla en su confirmación o procesamiento.
 class ReservaError(SistemaError):
     """Se lanza ante fallos en la lógica de reservas, cancelaciones o estados."""
     pass
