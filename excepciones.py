@@ -1,13 +1,13 @@
 # -------------------------------------------------------------------
-# ARCHIVO: excepciones.py
-# PROPÓSITO: Definir excepciones personalizadas para "Software FJ".
-# REQUISITO: Implementar manejo avanzado de excepciones (Guía Fase 4).
+# ARCHIVO: excepciones.py/Sergio_Bermudez
+# PROPÓSITO: Definir excepciones personalizadas para "Software FJ"./Sergio_Bermudez
+# REQUISITO: Implementar manejo avanzado de excepciones (Guía Fase 4)./Sergio_Bermudez
 # ----------------------------------------------------------------------
 
 # 1. CLASE MADRE DE EXCEPCIONES
-# ¿CÓMO?: Hereda de la clase base 'Exception' de Python.
-# ¿POR QUÉ?: Para agrupar todos los errores del sistema bajo un solo tipo.
-# ¿PARA QUÉ?: Permite capturar cualquier error del proyecto con un solo bloque.
+# ¿CÓMO?: Hereda de la clase base 'Exception' de Python./Sergio_Bermudez
+# ¿POR QUÉ?: Para agrupar todos los errores del sistema bajo un solo tipo./Sergio_Bermudez
+# ¿PARA QUÉ?: Permite capturar cualquier error del proyecto con un solo bloque./Sergio_Bermudez
 class SistemaError(Exception):
     """Clase base para todos los errores del sistema Software FJ."""
     pass
